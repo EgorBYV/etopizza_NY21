@@ -1,0 +1,297 @@
+@font-face {
+    font-family: "PlexSerifMedium";
+    src: url("fonts/IBMPlexSerif-Medium.ttf");
+    }
+
+@font-face {
+    font-family: "PlexSerifMediumItalic";
+    src: url("fonts/IBMPlexSerif-MediumItalic.ttf");
+    }
+
+@font-face {
+    font-family: "ZingRustBase";
+    src: url("fonts/ZingRust-Base.woff");
+    }
+
+@font-face {
+    font-family: "PlexSansRegular";
+    src: url("fonts/IBMPlexSans-Regular.ttf");
+    }
+
+@font-face {
+    font-family: "PlexSansItalic";
+    src: url("fonts/IBMPlexSans-Italic.ttf");
+    }
+
+@font-face {
+    font-family: "PlexSansBold";
+    src: url("fonts/IBMPlexSans-Bold.ttf");
+    }
+
+    
+    
+
+    body { 
+        background-color: #000000;
+        font-family:      PlexSansRegular;
+        font-size: small;
+        color: rgb(255, 255, 255);
+        margin:           0px;
+        zoom: 57%;
+      }
+
+    #etopizza {
+        font-family: "ZingRustBase";
+        color: rgb(151, 151, 151);
+    }
+
+    span#dostavka {
+        font-family: "PlexSansItalic";
+         }
+
+    .PlexSerifMedium {
+        font-family: "PlexSerifMedium";
+    }
+
+    .PlexSerifMediumItalic {
+        font-family: "PlexSerifMediumItalic";
+    }
+    
+    #PlexSansBold {
+        font-family: "PlexSansBold";
+    }
+
+    a:link {
+        color: rgb(255, 255, 255);
+        text-decoration:  none;
+        border-bottom:    1px solid rgb(255, 255, 255);
+      }
+      a:visited {
+        color:            #ccc9c9;
+        text-decoration:  none;
+        border-bottom:    1px solid #ccc9c9;
+      }
+
+header {
+    height:   230px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    } 
+    img#zvezda1  {
+            display: none;
+            width: 90px;
+            margin: 100px 0px 0px 0px;   
+            float: left;
+            }  
+
+     img#pizza1  {
+            display: none;
+            width: 130px;
+            margin: 80px 0px 0px 5%;   
+            float: right;
+            transform: rotate(0.5turn);
+            }  
+
+        div#header {
+            width: 600px;
+            padding-top: 18px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+    
+            }  
+            
+                #novogodnaya {
+                    font-size:  7.4em;
+                    letter-spacing: -0.01em;
+                    padding: 0px;
+                    margin: 0px;
+                    
+                    }  
+
+                p#lotereya {
+                letter-spacing: -0.01em;
+                    line-height: 0.4em;
+                    padding: 0px 0px 0px 20px;
+                    margin: 0px;
+                    font-size:  7.3em;
+                    float: left;
+                    
+                    padding-left: 4px;
+                    }  
+                
+                p#etopizza {
+                    padding: 16px 0px 0px 410px;
+                    line-height: 0.8em;
+                    margin: 0px 0px 0px 0px;
+                    font-size:  3.1em;
+                    }  
+
+div#block {
+    overflow: hidden;
+    position: relative;
+    width: 600px;
+    margin-top:0px;
+    padding-top: 0px;
+    padding-left:40px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;  
+    }  
+
+        p#zakaz {
+            width: 580px;
+            margin: 20px 0px 0px 260px;
+            text-align: left;
+            letter-spacing: 0.04em;
+            margin-left: auto;
+            margin-right: auto;  
+            font-size:  1.5em;
+            }  
+
+div#block3 {
+    
+    height: 650px;
+    position: relative;
+    padding: 35px 50px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;  
+    }  
+
+    #block3_1 {
+        position: absolute;
+        left: -280px;
+        }  
+       img#pizza2 {
+            width: 670px;
+            }  
+    #block3_3 {
+        
+        position: absolute;
+        right: -170px;
+        top: -70px;
+        }  
+        img#zvezda2 {
+            width: 240px;
+            }  
+
+    #block3_2 {  
+        margin: 0px 0px 0px 60px;
+        padding: 0px 0px 0px 320px;
+        width: 250px;
+        }  
+        div#block3_2_1 {
+            margin: 20px 0px 0px 40px;
+            padding: 0px 0px 0px 0px;
+            }   
+            p#cifra {
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                font-size:  7.5em;
+                line-height: 0.03em;
+                }     
+           div p#slovo  {
+            padding: 7px 0px 0px 0px;
+            line-height: 0.01em;
+            font-size:  4em;
+             
+                }     
+        div#block3_2_2 {
+            padding: 0px 0px 0px 10px;
+            margin: 0px 0px 0px 0px;
+            text-align: left;
+            font-size:  1.3em;
+            }  
+
+        div#block3_2_3 {
+            padding: 20px 0px 0px 45px;
+            width:  100px;
+            margin: 0px 0px 0px 0px;
+            }  
+
+                img#piramidki {
+                    width: 135px;
+                    color: rgb(119, 121, 117);
+                    }  
+       
+        div#block3_2_4 {
+            padding: 20px 0px 0px 40px;
+            width:  230px;
+            margin: 0px 0px 0px 0px;
+            }  
+                #skidka  {
+                    padding: 0px 0px 0px 0px;
+                    margin: 0px 0px 0px 0px;
+                    font-size:  3.3em;
+                    }  
+                #procent{
+                    padding: 0px 0px 0px 0px;
+                    margin: 0px 0px 0px 0px;
+                    font-size:  6.5em;
+                    line-height: 0.6em;
+                    }  
+                #text {
+                    padding: 20px 0px 0px 0px;
+                    margin: 0px 0px 0px 0px;
+                    font-size:  1.25em;
+                    line-height: 1.4em;
+                    }  
+
+       
+    footer {
+    overflow: hidden;
+        margin: 0px 0px 0px 0px;
+        padding:0px 50px 0px 50px;   
+        height: 640px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        } 
+
+                img#zvezda3  {
+                display:none;
+                width: 120px;
+                margin: 150px 0px 0px 0px;   
+                float: left;
+                    }  
+        
+                img#pizza3  {
+           
+                position: absolute;
+                right: -190px;
+                top: 430px;
+                width: 310px;
+                transform: rotate(0.71turn);
+                    }  
+
+                div#block4 { 
+                position: relative;
+                left:-20px;
+                    width: 600px;
+                    margin: 0px 0px 0px 0px;
+                    padding: 0px 0px 0px 0px;
+                    text-align: left;
+                    font-size:  1.2em;
+                    }  
+
+                div#block4 h1 {
+                    text-align: left;
+                    font-size:  1.9em;
+                    padding: 15px 0px 5px 18px;
+                    }  
+                    
+             
+
+                    div#block4 p#ssylki {
+                        text-align: left;
+                        margin: 20px 0px 50px 0px;
+                        padding:10px 0px 60px 17px;
+                        }  
+           
+    @media (max-width: 320px) {
+        header {padding-left: 50px; }
+        }
